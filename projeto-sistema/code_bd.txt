@@ -1,0 +1,7 @@
+CREATE TABLE users(
+    id_user int PRIMARY KEY AUTO_INCREMENT not null,
+    name_user varchar(30) not null,
+    age_user int(3) not null,
+    img_user varchar(60) not null,
+    level_user int(3) not null
+)
